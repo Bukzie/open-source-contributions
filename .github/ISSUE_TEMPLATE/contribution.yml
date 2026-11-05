@@ -1,0 +1,28 @@
+name: Contribution
+description: Track a specific upstream contribution
+labels: ["contribution"]
+body:
+  - type: input
+    id: upstream
+    attributes:
+      label: Upstream link
+      description: Issue or PR URL
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Stage
+      options: [DISCOVER, VALIDATE, MAINTAINER ALIGNMENT, OWNER APPROVAL, IMPLEMENT, INDEPENDENT REVIEW, OWNER APPROVAL TO SUBMIT, PR REVIEW, MERGED, CLOSED]
+    validations:
+      required: true
+  - type: textarea
+    id: ai-policy
+    attributes:
+      label: Upstream AI policy and how it is met
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence (reproduction, tests, SHA), with dates

@@ -1,0 +1,23 @@
+# Upstream checkouts and scratch
+workspaces/*
+!workspaces/.gitkeep
+
+# Raw evidence, transcripts, operational records: keep local only
+evidence/
+research/evidence/
+_private/
+*.tar.gz
+*.log
+transcripts/
+token-costs/
+
+# Secrets and environment
+.env
+.env.*
+*.pem
+*.key
+
+# OS and editor
+.DS_Store
+.idea/
+.vscode/
