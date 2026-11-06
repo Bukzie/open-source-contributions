@@ -52,7 +52,7 @@ Not pursued: gitleaks (VERIFIED: last human-authored merge in recent list is 202
 ### P2. zizmor #2484: `unpinned-tools` UX for `version: ${{ vars.X }}`
 - Link: https://github.com/zizmorcore/zizmor/issues/2484 (labelled user-experience, filed 2026-10-25, 0 comments, maintainer-authored with two proposed options: lower to pedantic, or allow-list `vars.FOO` in config).
 - Not good first issue, so AI-assisted work is allowed in principle, but policy still requires issue greenlight first and a human-owned understanding of the code.
-- Risk: HYPOTHESIS the maintainer may implement it directly (merged dozens of PRs in a week; #2476 context). Needs a comment asking which option he prefers and whether he wants a PR. Effort: medium (config schema + audit + docs + tests, under 750 LOC). Acceptance: medium-low (HYPOTHESIS), purely maintainer-driven design.
+- Risk: HYPOTHESIS the maintainer may implement it directly (merged dozens of PRs in a week; #2476 context). Needs a comment asking which option the maintainer prefers and whether an external PR is welcome. Effort: medium (config schema + audit + docs + tests, under 750 LOC). Acceptance: medium-low (HYPOTHESIS), purely maintainer-driven design.
 - Discussion first: yes, mandatory.
 
 ### P3. ossf/scorecard #5412 sub-piece: SLSA tooling deprecation (Signed-Releases / Token-Permissions)
