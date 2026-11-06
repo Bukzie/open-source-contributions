@@ -1,0 +1,40 @@
+⠋ Generating mutants⠙ Generating mutants⠹ Generating mutants⠸ Generating mutants⠼ Generating mutants⠴ Generating mutants⠦ Generating mutants⠧ Generating mutants⠇ Generating mutants⠏ Generating mutants⠋ Generating mutants⠙ Generating mutants⠹ Generating mutants⠸ Generating mutants⠼ Generating mutants⠴ Generating mutants⠦ Generating mutants⠧ Generating mutants⠇ Generating mutants⠏ Generating mutants⠋ Generating mutants⠙ Generating mutants⠹ Generating mutants⠸ Generating mutants⠼ Generating mutants⠴ Generating mutants⠦ Generating mutants⠧ Generating mutants⠇ Generating mutants⠏ Generating mutants⠋ Generating mutants⠙ Generating mutants⠹ Generating mutants⠸ Generating mutants⠸ Generating mutants⠼ Generating mutants⠼ Generating mutants
+    done in 56ms (2 files mutated, 0 ignored, 0 unmodified)
+
+Current thread 0x0000000208fd5300 (most recent call first):
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/mutmut/stats.py", line 173 in record_trampoline_hit
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/mutmut/mutation/trampoline.py", line 97 in trampoline
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/mutmut/mutation/trampoline.py", line 172 in _trampoline_wrapper
+  File "<tmp>/p/mutants/tests/test_core.py", line 6 in test_make_garbage
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/_pytest/python.py", line 187 in pytest_pyfunc_call
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/pluggy/_execution.py", line 147 in _multicall
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/pluggy/_manager.py", line 183 in _hookexec
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/pluggy/_caller.py", line 197 in __call__
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/_pytest/python.py", line 1798 in runtest
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/_pytest/runner.py", line 184 in pytest_runtest_call
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/pluggy/_execution.py", line 147 in _multicall
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/pluggy/_manager.py", line 183 in _hookexec
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/pluggy/_caller.py", line 197 in __call__
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/_pytest/runner.py", line 250 in <lambda>
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/_pytest/runner.py", line 361 in from_call
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/_pytest/runner.py", line 249 in call_and_report
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/_pytest/runner.py", line 139 in runtestprotocol
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/_pytest/runner.py", line 118 in pytest_runtest_protocol
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/pluggy/_execution.py", line 147 in _multicall
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/pluggy/_manager.py", line 183 in _hookexec
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/pluggy/_caller.py", line 197 in __call__
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/_pytest/main.py", line 411 in pytest_runtestloop
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/pluggy/_execution.py", line 147 in _multicall
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/pluggy/_manager.py", line 183 in _hookexec
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/pluggy/_caller.py", line 197 in __call__
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/_pytest/main.py", line 387 in _main
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/_pytest/main.py", line 333 in wrap_session
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/_pytest/main.py", line 380 in pytest_cmdline_main
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/pluggy/_execution.py", line 147 in _multicall
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/pluggy/_manager.py", line 183 in _hookexec
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/pluggy/_caller.py", line 197 in __call__
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/_pytest/config/__init__.py", line 262 in _main
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/_pytest/config/__init__.py", line 231 in main
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/mutmut/runners/harness.py", line 132 in execute_pytest
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/mutmut/runners/harness.py", line 169 in run_stats
+  File "<repo>/workspaces/venvs/py311/lib/python3.11/site-packages/mutmut/workers/isolation.py", line 918 in collect_stats

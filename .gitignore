@@ -4,6 +4,8 @@ workspaces/*
 
 # Raw evidence, transcripts, operational records: keep local only
 evidence/
+!candidates/evidence/
+!candidates/evidence/**
 research/evidence/
 _private/
 *.tar.gz
@@ -21,3 +23,6 @@ token-costs/
 .DS_Store
 .idea/
 .vscode/
+
+__pycache__/
+*.pyc

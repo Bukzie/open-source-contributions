@@ -1,0 +1,8 @@
+[project]
+name = "repro812"
+version = "0.0.0"
+requires-python = ">=3.10"
+
+[tool.mutmut]
+source_paths = ["repro812"]
+pytest_add_cli_args_test_selection = ["tests"]

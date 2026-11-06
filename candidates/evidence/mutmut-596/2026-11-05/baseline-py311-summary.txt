@@ -1,0 +1,23 @@
+============================== 12 passed in 0.02s ==============================
+============================== 12 passed in 0.01s ==============================
+FAILED tests/test_type_checking.py::test_hello - mutmut.core.MutmutProgrammat...
+============================== 1 failed in 0.01s ===============================
+E           json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+E           Exception: type check command did not return JSON. Got:  (stderr: cannot identify current dir: No such file or directory (os error 2)
+E           )
+E       AssertionError: assert {'mutants/src...t_2': 1, ...}} == {'mutants/src...t_2': 1, ...}}
+E         
+E         Differing items:
+E         {'mutants/src/type_checking/__init__.py.meta': {'type_checking.x_a_hello_wrapper__mutmut_1': 1, 'type_checking.x_a_hello_wrapper__mutmut_2': 0, 'type_checking.x_hello__mutmut_1': 1, 'type_checking.x_hello__mutm
+E         Use -v to get more diff
+============================== 12 passed in 0.02s ==============================
+============================== 12 passed in 0.01s ==============================
+FAILED tests/test_type_checking.py::test_hello - mutmut.core.MutmutProgrammat...
+============================== 1 failed in 0.01s ===============================
+E               Failed: setproctitle did NOT crash (exit code 0). The library may have been fixed! Consider removing the workaround in safe_setproctitle.py
+FAILED tests/e2e/test_e2e_type_checking.py::test_type_checking_pyrefly_result_snapshot
+FAILED tests/e2e/test_e2e_type_checking.py::test_type_checking_mypy_result_snapshot
+FAILED tests/utils/test_safe_setproctitle.py::test_setproctitle_crashes_after_fork_with_corefoundation_loaded
+ERROR tests/e2e/test_e2e_type_checking.py::test_type_checking_mypy_result_snapshot
+3 failed, 472 passed, 2 skipped, 1 error in 14.66s
+rc=1

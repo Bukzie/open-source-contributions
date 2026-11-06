@@ -1,0 +1,58 @@
+# Fresh upstream checks, 2026-11-05 (read-only gh output, trimmed)
+## issue 596
+{"assignees":[],"comments":0,"labels":[],"state":"OPEN","updatedAt":"2026-10-11T01:02:35Z"}
+## timeline cross-references
+cubrid-lab/pycubrid #812 closed
+cubrid-lab/pycubrid #815 closed
+## open PRs (number date title)
+628 2026-11-05 Hide mutants shadowed by a surviving code-removing mutant in browse
+625 2026-11-03 Fix `mutmut apply` writing a mutant into a same-named function or method
+623 2026-11-02 Mutate decorated functions: keep decorators on the trampoline only (#387)
+621 2026-10-30 Fix an exception from the test run reporting the mutant as killed
+620 2026-10-30 Mutate methods decorated with @override
+619 2026-10-30 Resolve macOS proxy settings before forking
+617 2026-10-29 Invalidate cached caller results when dependencies change
+607 2026-10-20 Add the junitxml command for JUnit XML reports
+606 2026-10-20 Preserve parentheses when removing unary operators
+595 2026-10-10 Fix crash on dangling symlinks when copying into mutants/ (#582)
+594 2026-10-09 Fix wildcard mutant patterns selecting no tests for the clean run
+591 2026-10-03 Do not mutate typing.Protocol classes
+589 2026-09-30 Skip -/+ swaps for unary ops in match-case patterns
+588 2026-09-26 chore: up min version pytest support to 7.4.4 and improve typing
+587 2026-09-26 Add mutmut.is_mutmut_generated_name for tests that inspect classes
+580 2026-09-10 Mutate f-strings and concatenated strings
+579 2026-09-10 Add configurable mutation type filtering
+562 2026-09-03 test: the stats collector counts only the call phase
+517 2026-05-09 fix: ignore sockets and other non-file files
+404 2025-07-06 Windows support
+## PR search: GC / ContextVar / __del__ / segfault / 596
+q=ContextVar
+509 merged feat: Mutation caching and transitive dependency tracking
+q=__del__
+q=garbage
+q=segfault
+607 open Add the junitxml command for JUnit XML reports
+619 open Resolve macOS proxy settings before forking
+479 merged 🐛 Change cwd for coverage reports
+473 merged maint: add pre-commit, mypy, testing docker
+451 closed Add support for f-string and concatenated string mutations
+q=596
+## policy files (HTTP status via gh api)
+absent  AGENTS.md
+absent  CLAUDE.md
+absent  AI_POLICY.md
+absent  .github/pull_request_template.md
+present CONTRIBUTING.rst
+## recent merges
+616 2026-10-28 Fix stats collection crash with pytest 9.2
+614 2026-10-26 Fix "pragma: no mutate" being ignored inside multi-line statements
+613 2026-10-28 chore(deps): bump virtualenv from 21.1.0 to 21.14.13
+612 2026-10-23 Fix typo in README.rst
+611 2026-10-23 Don't produce equivalent case mutants inside string escape sequences
+605 2026-10-19 Fix crash when mutating float literals too large for a float
+603 2026-10-19 Fix enums with custom `__init__` failing to import under mutmut
+599 2026-10-15 Fix crash when mypy reports no errors
+581 2026-09-12 Release 3.8.0
+576 2026-09-09 misc: update history
+569 2026-09-12 Fix obsolete test names never being removed from the stats file
+567 2026-09-07 ci: pre-commit workflow

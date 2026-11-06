@@ -5,7 +5,7 @@ upstream state was last checked by a human or a recorded tool run; a blank means
 
 | ID | Upstream | Stage | Last verified | PR | Outcome |
 |---|---|---|---|---|---|
-| C1 | boxed/mutmut #596 | DISCOVER | 2026-11-04 (research) | none | open |
+| C1 | boxed/mutmut #596 | VALIDATE (complete, awaiting owner decision) | 2026-11-05 (SHA 857019a) | none | open |
 | C2 | strands-agents/harness-sdk #4896 | DISCOVER | 2026-11-04 (research) | none | open |
 | C3 | opentelemetry-python-genai claude-agent-sdk (#141) | DISCOVER | 2026-11-04 (research) | none | open |
 | C4 | boxed/mutmut #584 | DISCOVER | 2026-11-04 (research) | none | open |

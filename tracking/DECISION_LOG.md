@@ -12,3 +12,8 @@ See `../research/summaries/EXECUTIVE_REPORT.md`.
 - Missing wildcard report documented as missing; a clearly labelled reconstruction was added instead.
 - Initial tracked state is local only. Creating the GitHub repository, pushing, and creating Project items are
   **pending owner approval**.
+
+## 2026-11-05: mutmut #596 validation completed
+Owner authorized a read-only validation. Result: crash reproduced deterministically on 3.11, absent on 3.12 and on
+mutmut 3.6.0. Recommendation GO to the next owner decision. No implementation, fork, comment or PR was made.
+Evidence: `candidates/evidence/mutmut-596/2026-11-05/`.

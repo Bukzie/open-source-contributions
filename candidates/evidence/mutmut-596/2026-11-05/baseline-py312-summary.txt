@@ -1,0 +1,8 @@
+E           json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+E           Exception: type check command did not return JSON. Got:  (stderr: cannot identify current dir: No such file or directory (os error 2)
+E           )
+E               Failed: setproctitle did NOT crash (exit code 0). The library may have been fixed! Consider removing the workaround in safe_setproctitle.py
+FAILED tests/e2e/test_e2e_type_checking.py::test_type_checking_pyrefly_result_snapshot
+FAILED tests/utils/test_safe_setproctitle.py::test_setproctitle_crashes_after_fork_with_corefoundation_loaded
+2 failed, 473 passed, 2 skipped, 261 warnings in 15.00s
+rc=1
