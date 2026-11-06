@@ -17,3 +17,10 @@ See `../research/summaries/EXECUTIVE_REPORT.md`.
 Owner authorized a read-only validation. Result: crash reproduced deterministically on 3.11, absent on 3.12 and on
 mutmut 3.6.0. Recommendation GO to the next owner decision. No implementation, fork, comment or PR was made.
 Evidence: `candidates/evidence/mutmut-596/2026-11-05/`.
+
+## 2026-11-06: mutmut #596 owner GO and local implementation
+Owner approved maintainer-alignment preparation and a bounded local implementation. A per-thread re-entrancy guard was
+built and compared with GC suspension (naive and hardened) and `__del__` exclusion. The issue's stated cause (nested
+`set()` only) proved insufficient in our runs; both nested `get()` and nested `set()`/`reset()` must be guarded.
+Independent review: defensible as a mitigation. Implementation code and the maintainer-alignment draft are kept
+private and unpushed. No upstream comment, fork, PR or merge occurred. Next decision: owner.
